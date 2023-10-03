@@ -1,0 +1,94 @@
+header {
+    margin: 25px;
+    width: auto;
+}
+
+section {
+    display: inline-flex;
+    margin-left: 50px;
+}
+
+.container {
+    display: inline-flex;
+    margin-left: 40px;
+    flex-direction: column;
+}
+
+.menu {
+    display: inline-flex;
+}
+
+#form {
+    width: 450px;
+    height: 30px;
+    margin-left: 240px;
+    flex-direction: row;
+    border: 1px solid gray;
+}
+
+button {
+    cursor: pointer;
+    background: transparent;
+    border: none;
+}
+
+#search {
+    width: 50px;
+    height: 30px;
+    background-color: rgb(241, 236, 236);
+    text-transform: none;
+    border: 1px solid gray;
+}
+
+#icone-menu {
+    margin-left: 25px;
+    height: 22px;
+}
+
+.container-config {
+    display: flex;
+    margin-left: 800px;
+}
+
+.config {
+    display: flex;
+    gap: 10px;
+}
+
+.config:hover {
+    background-color: gray;
+}
+
+.item {
+    margin-left: 120px;
+    margin-bottom: 10px;
+}
+
+#galotv {
+    display: inline-flex;
+    align-items: center;
+
+}
+
+#emblema-galotv {
+    border-radius: 50%;
+}
+
+h1 {
+    font-size: 1.7rem;
+}
+
+#galotv h3 {
+    margin: 5px;
+}
+
+#galotv h3 p {
+    margin: 0 auto;
+    font-size: 0.8rem;
+    color: rgb(64, 63, 63);
+}
+
+
+#galotv button {
+    margin-left: 45px;
+}
